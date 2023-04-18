@@ -1,0 +1,62 @@
+{
+  "large": {
+    "ext": ".jpg",
+    "url": "https://res.cloudinary.com/smartguess/image/upload/v1640805353/large_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5.webp",
+    "hash": "large_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5",
+    "mime": "image/webp",
+    "name": "large_Turtle - flipped - struggling to get to see.jpg",
+    "path": null,
+    "size": 102.26,
+    "width": 1000,
+    "height": 667,
+    "provider_metadata": {
+      "public_id": "large_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5",
+      "resource_type": "image"
+    }
+  },
+  "small": {
+    "ext": ".jpg",
+    "url": "https://res.cloudinary.com/smartguess/image/upload/v1640805354/small_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5.webp",
+    "hash": "small_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5",
+    "mime": "image/webp",
+    "name": "small_Turtle - flipped - struggling to get to see.jpg",
+    "path": null,
+    "size": 20.44,
+    "width": 500,
+    "height": 333,
+    "provider_metadata": {
+      "public_id": "small_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5",
+      "resource_type": "image"
+    }
+  },
+  "medium": {
+    "ext": ".jpg",
+    "url": "https://res.cloudinary.com/smartguess/image/upload/v1640805353/medium_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5.webp",
+    "hash": "medium_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5",
+    "mime": "image/webp",
+    "name": "medium_Turtle - flipped - struggling to get to see.jpg",
+    "path": null,
+    "size": 52.65,
+    "width": 750,
+    "height": 500,
+    "provider_metadata": {
+      "public_id": "medium_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5",
+      "resource_type": "image"
+    }
+  },
+  "thumbnail": {
+    "ext": ".jpg",
+    "url": "https://res.cloudinary.com/smartguess/image/upload/v1640805352/thumbnail_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5.webp",
+    "hash": "thumbnail_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5",
+    "mime": "image/webp",
+    "name": "thumbnail_Turtle - flipped - struggling to get to see.jpg",
+    "path": null,
+    "size": 4.11,
+    "width": 234,
+    "height": 156,
+    "provider_metadata": {
+      "public_id": "thumbnail_Turtle_flipped_struggling_to_get_to_see_123582815_m_9cd7a92be5",
+      "resource_type": "image"
+    }
+  }
+}

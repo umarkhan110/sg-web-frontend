@@ -1,0 +1,599 @@
+body {
+  direction: rtl;
+  overflow-x: hidden !important;
+}
+
+ul {
+  padding-right: 0;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-item {
+  direction: rtl;
+}
+
+.texap-nav .navbar .navbar-nav {
+  padding-right: 0;
+}
+
+.texap-nav .navbar .navbar-nav .nav-item:last-child {
+  margin-right: 15px;
+  margin-left: 0;
+}
+
+.texap-nav .navbar .navbar-nav .nav-item:first-child {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.texap-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+  left: auto !important;
+  right: 0;
+  transform: initial !important;
+  -webkit-transform: initial !important;
+  -moz-transform: initial !important;
+  -ms-transform: initial !important;
+  -o-transform: initial !important;
+}
+
+.texap-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+  text-align: right;
+}
+
+.texap-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu {
+  text-align: right;
+}
+
+.texap-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu ul {
+  padding: 0;
+}
+
+.features-content .features-list {
+  padding: 0;
+}
+
+.features-content .features-list li {
+  padding-left: 0;
+  padding-right: 75px;
+}
+
+.features-content .features-list li .icon {
+  left: auto;
+  right: 0;
+}
+
+.features-content .btn-box .default-btn {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.single-features-item {
+  padding: 40px 110px 35px 30px;
+}
+
+.single-features-item .icon {
+  left: auto;
+  right: 30px;
+}
+
+.app-download-inner::before {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.app-download-content {
+  padding-right: 30px;
+}
+
+.app-download-content .btn-box .playstore-btn {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.single-pricing-table .features-list {
+  padding: 0;
+}
+
+.single-pricing-table .features-list li {
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+.single-pricing-table .features-list li i {
+  left: auto;
+  right: -2px;
+}
+
+.single-feedback-box .client-info .title {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.free-trial-content form .input-newsletter {
+  text-align: left;
+}
+
+.footer-content .navbar-nav {
+  padding-right: 0;
+}
+
+.footer-content .navbar-nav .nav-item:last-child {
+  margin-right: 15px;
+}
+
+.footer-content .social-links {
+  padding: 0;
+}
+
+.footer-content .social-links li :first-child {
+  margin-left: 3px;
+}
+
+.banner-content {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.banner-shape7 img, .banner-shape8 img {
+  max-width: 120px;
+}
+
+.app-progress-content {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.feedback-swiper-slides .swiper-button-next {
+  left: -70px;
+  right: auto;
+  padding-left: 0;
+  padding-right: 3px;
+}
+
+.feedback-swiper-slides .swiper-button-prev {
+  right: -70px;
+  left: auto;
+  padding-left: 3px;
+  padding-right: 0;
+}
+
+.single-pricing-box .features-list {
+  padding: 0;
+}
+
+.single-pricing-box .features-list li {
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+.single-pricing-box .features-list li i {
+  left: 0;
+  right: -2px;
+}
+
+.features-lists ul {
+  padding-right: 0;
+}
+
+.banner-wrapper-image .banner-img:nth-child(2) {
+  left: auto;
+  right: 0;
+}
+
+.overview-content {
+  margin-left: 0;
+  margin-right: auto;
+  padding-right: 0;
+  padding-left: 25px;
+}
+
+.overview-content .features-list {
+  padding-right: 0;
+}
+
+.overview-content .features-list li {
+  padding-left: 0;
+  padding-right: 50px;
+}
+
+.overview-content .features-list li .icon {
+  left: auto;
+  right: 0;
+}
+
+.overview-content .btn-box .default-btn {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.single-blog-post .content ul {
+  padding-right: 0;
+}
+
+.single-blog-post .content ul li {
+  padding-left: 0;
+  padding-right: 19px;
+}
+
+.single-blog-post .content ul li i {
+  left: auto;
+  right: 0;
+}
+
+.single-blog-post .content ul li:first-child {
+  margin-right: 0;
+}
+
+.banner-wrapper-area {
+  overflow: hidden;
+}
+
+.banner-wrapper-content {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+.banner-wrapper-content .sub-title {
+  border-left: none;
+  border-right: 2px solid var(--mainColor);
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.single-features-item.without-hover {
+  padding: 0 80px 0 0;
+}
+
+.single-features-item.without-hover .icon {
+  left: auto;
+  right: 0;
+}
+
+.screen-swiper-slides .swiper-button-next {
+  right: auto;
+  left: 0;
+}
+
+.single-pricing-table .popular {
+  right: auto;
+  left: 20px;
+}
+
+.feedback-area.bg-gradient-color::before {
+  left: auto;
+  right: 0;
+}
+
+.gradient-banner-content form .input-newsletter {
+  text-align: left;
+}
+
+.about-content .btn-box .default-btn {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.single-pricing-box .popular {
+  right: auto;
+  left: 20px;
+}
+
+.free-trial-inner .content form .input-newsletter {
+  text-align: left;
+}
+
+.navbar-area.navbar-style-four .texap-nav .navbar .navbar-nav {
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+.widget-area .widget_search form .search-field {
+  text-align: left;
+}
+
+.widget-area .widget_pakap_posts_thumb .item {
+  padding-left: 0;
+  padding-right: 115px;
+}
+
+.widget-area .widget_pakap_posts_thumb .item .thumb {
+  left: auto;
+  right: 0;
+}
+
+.blog-details-desc .article-content .entry-meta ul {
+  padding: 0;
+}
+
+.blog-details-desc .article-content .entry-meta ul li {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.blog-details-desc .article-content ul {
+  padding-right: 20px;
+}
+
+.blog-details-desc .article-content .wp-block-gallery {
+  padding: 0;
+}
+
+.blog-details-desc .article-footer .post-author-meta .title {
+  margin-left: 0;
+  margin-right: 17px;
+}
+
+.blog-details-desc .article-footer .article-share .social li span {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.blog-details-desc .comments-area .comment-body {
+  padding-left: 0;
+  padding-right: 72px;
+}
+
+.blog-details-desc .comments-area .comment-body .reply {
+  right: auto;
+  left: 0;
+}
+
+.blog-details-desc .comments-area .comment-author .avatar {
+  left: auto;
+  right: -67px;
+}
+
+.blog-details-desc .comments-area .comment-respond input[type="date"], .blog-details-desc .comments-area .comment-respond input[type="time"], .blog-details-desc .comments-area .comment-respond input[type="datetime-local"], .blog-details-desc .comments-area .comment-respond input[type="week"], .blog-details-desc .comments-area .comment-respond input[type="month"], .blog-details-desc .comments-area .comment-respond input[type="text"], .blog-details-desc .comments-area .comment-respond input[type="email"], .blog-details-desc .comments-area .comment-respond input[type="url"], .blog-details-desc .comments-area .comment-respond input[type="password"], .blog-details-desc .comments-area .comment-respond input[type="search"], .blog-details-desc .comments-area .comment-respond input[type="tel"], .blog-details-desc .comments-area .comment-respond input[type="number"], .blog-details-desc .comments-area .comment-respond textarea {
+  padding: 10px 20px;
+}
+
+.blog-details-desc .comments-area .comment-respond .comment-form-cookies-consent {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.blog-details-desc .comments-area .comment-respond .comment-form-cookies-consent input {
+  left: auto;
+  right: 0;
+}
+
+.how-it-works-content {
+  border-left: none;
+  border-right: 1px dashed var(--mainColor);
+  padding-left: 0;
+  padding-right: 50px;
+}
+
+.how-it-works-content .number {
+  left: auto;
+  right: -29px;
+}
+
+.how-it-works-content .content {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.how-it-works-content .content ul {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.signin-form .sign-in-with-button button svg, .signup-form .sign-in-with-button button svg {
+  display: none;
+}
+
+.privacy-policy-content ul, .privacy-policy-content ol, .terms-conditions-content ul, .terms-conditions-content ol {
+  padding-right: 20px;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel ul {
+  padding-right: 20px;
+}
+
+.coming-soon-content form .input-newsletter {
+  text-align: left;
+}
+
+.app-download-inner.bg-gray .app-download-content {
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.app-download-inner.bg-gradient-color .app-download-content {
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.app-download-content .btn-box .applestore-btn {
+  padding-left: 25px;
+  padding-right: 65px;
+}
+
+.app-download-content .btn-box .applestore-btn img {
+  left: auto;
+  right: 20px;
+}
+
+.app-download-content .btn-box .playstore-btn {
+  padding-left: 25px;
+  padding-right: 65px;
+}
+
+.app-download-content .btn-box .playstore-btn img {
+  left: auto;
+  right: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-area .navbar .navbar-nav {
+    padding-left: 20px;
+  }
+  .navbar-area .navbar .navbar-nav .nav-item {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .navbar-area .navbar .others-options {
+    right: auto;
+    left: 50px;
+  }
+  .navbar-area.navbar-style-four .texap-nav .navbar .navbar-nav {
+    margin-left: 0;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+  .single-features-item {
+    padding: 20px 80px 20px 15px;
+  }
+  .single-features-item .icon {
+    top: 20px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .app-download-inner::before {
+    margin-left: 0;
+  }
+  .app-download-content {
+    padding-right: 0;
+  }
+  .features-content .features-list li {
+    padding: 20px 15px;
+  }
+  .features-content .btn-box {
+    text-align: center;
+  }
+  .screenshots-swiper-slides .swiper-button-prev {
+    margin-left: auto;
+    margin-right: -22px;
+  }
+  .screenshots-swiper-slides .swiper-button-next {
+    margin-right: auto;
+    margin-left: -22px;
+  }
+  .single-pricing-box.active {
+    padding-top: 50px;
+  }
+  .overview-content {
+    padding-left: 0;
+  }
+  .overview-content .features-list {
+    margin: 0;
+    padding: 0;
+  }
+  .overview-content .features-list li {
+    padding: 20px;
+  }
+  .banner-wrapper-content {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .screen-swiper-slides .swiper-button-prev {
+    right: 0;
+  }
+  .how-it-works-content {
+    max-width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    border: none;
+  }
+  .how-it-works-content .number {
+    right: 0px;
+    left: auto;
+    width: 34px;
+    height: 34px;
+    font-size: 15px;
+    line-height: 33px;
+  }
+  .how-it-works-content .content {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .blog-details-desc .comments-area .comment-body {
+    padding-right: 0;
+  }
+  .blog-details-desc .comments-area .comment-author .avatar {
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .single-features-item {
+    padding: 20px;
+  }
+  .single-features-item .icon {
+    top: 0;
+    left: 0;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .banner-wrapper-image .banner-img:nth-child(2) {
+    left: 0;
+    right: auto;
+  }
+  .single-features-item.without-hover {
+    padding: 0;
+  }
+  .single-features-item.without-hover .icon {
+    top: 0;
+    left: 0;
+    position: relative;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-area .navbar .navbar-nav .nav-item {
+    margin-left: 5px;
+    margin-right: 6px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+  .features-content .features-list li {
+    padding: 20px;
+  }
+  .single-features-item {
+    padding: 25px 110px 25px 20px;
+  }
+  .single-pricing-table {
+    padding: 50px;
+  }
+  .single-pricing-box.active {
+    padding-top: 50px;
+  }
+  .banner-wrapper-content {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .how-it-works-content .content {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .app-download-content {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .single-pricing-box.active {
+    padding-top: 50px;
+  }
+  .banner-wrapper-image .banner-img:nth-child(2) {
+    left: 0;
+    right: auto;
+  }
+  .software-integrations-content.white-color {
+    padding-right: 30px;
+  }
+}
+/*# sourceMappingURL=rtl.css.map */
