@@ -7,6 +7,7 @@ const ModalVideo = dynamic(() => import('react-modal-video'), {
 
 import SGImage from '../Elements/SGImage';
 import { useContentData } from '@/utils/useContentData';
+import NextSGImage from '../Elements/NextImage';
 
 const VideoContent = (props) => {
     const { url="intro-videos?slug=smartguess-45sec-intro" } = props;
@@ -27,11 +28,13 @@ const VideoContent = (props) => {
                             <div className="video-box">
                               <a target="_blank" href="https://www.youtube.com/watch?v=s9JY6qf5AeA"> 
                               
-                                <SGImage 
+                                <NextSGImage
                                     {...content.image}
                                     lazyload={true} 
                                     responsive={true} //Responsive Og ReSize saman = ekki gott
-                                    placeholder={true}           
+                                    placeholder={true}  
+                                    setWidth="624px"
+                                    setHeight="469px"         
                                 />        
                                 <div
                                     onClick={e => {e.preventDefault(); openModal()}}

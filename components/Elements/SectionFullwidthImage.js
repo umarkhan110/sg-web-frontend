@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import SGImage from '../Elements/SGImage';
 import ReactMarkdown from 'react-markdown';
+import NextSGImage from './NextImage';
 
 
 const SectionFullwidthImage = (props) => {
@@ -50,13 +51,23 @@ const SectionFullwidthImage = (props) => {
                           {useAsCTA? content.subTitle2 : content.description}
                         </ReactMarkdown>
                       </div>
-                      <SGImage 
+                      {/* <SGImage 
                         style={getImageStyle()}
                         {...content.image}
                         lazyload={true} 
                         responsive={true} 
                         placeholder={true}
                         maxHeight={useAsCTA? 250 : 350}
+                      /> */}
+                      <NextSGImage
+                        style={getImageStyle()}
+                        {...content.image}
+                        lazyload={true} 
+                        responsive={true} 
+                        placeholder={true}
+                        maxHeight={useAsCTA? 250 : 350}
+                        setWidth="560px"
+                setHeight="350px"
                       />
                     </a>
                   </Link>
@@ -70,7 +81,7 @@ const SectionFullwidthImage = (props) => {
                           {content.descriptionTwo}
                         </ReactMarkdown>
                       </div>
-                      <SGImage 
+                      {/* <SGImage 
                         style={getImageStyle()}
                         {...content.imageTwo}
                         lazyload={true} 
@@ -78,6 +89,16 @@ const SectionFullwidthImage = (props) => {
                         placeholder={true}
                         maxHeight={useAsCTA? 250 : 350}
                                    
+                        /> */}
+                        <NextSGImage 
+                        style={getImageStyle()}
+                        {...content.imageTwo}
+                        lazyload={true} 
+                        responsive={true} 
+                        placeholder={true}
+                        maxHeight={useAsCTA? 250 : 350}
+                        setWidth="528px"
+                        setHeight="350px"      
                         />
                     </a>
                   </Link>

@@ -8,6 +8,7 @@ import Link from '@/utils/ActiveLink';
 
 import SGImage from '../Elements/SGImage';
 import { preserveUrlParam } from '../Banner/CTAButton';
+import NextSGImage from "../Elements/NextImage";
 
 export const DARK_MODE = "DARK";
 export const LIGHT_MODE = "LIGHT";
@@ -231,17 +232,17 @@ const SGNavbarStyle = (props) => {
                                         <Link  href="/">
                                             <a aria-label="Smart guess home" className="navbar-brand">
                                                 <div id="large-logo"  > 
-                                                <SGImage 
-                                                  setWidth={"auto"} 
-                                                  setHeight={52}
+                                                <NextSGImage 
+                                                  setWidth="298px" 
+                                                  setHeight="52px"
                                                    {...getImage().large}
                                                 />
                                                 </div>
                                                 <div id="small-logo-container"> 
                                                   <div id="small-logo">
-                                                    <SGImage
-                                                      setWidth={"auto"} 
-                                                      setHeight={48}
+                                                    <NextSGImage
+                                                      setWidth="48px" 
+                                                      setHeight="48px"
                                                       {...getImage().small} />
                                                     </div>
                                                     <div className={getLinkButtonClass()} style={{

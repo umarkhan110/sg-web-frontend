@@ -18,6 +18,7 @@ import FunfactStyleOne from '@/components/Common/FunfactStyleOne';
 import Seo from '@/components/_App/Seo';
 import baseApiUrl from '@/utils/baseApiUrl';
 import SGPartnerStyle from '@/components/Common/SGPartnerStyle';
+import SectionTextPicForCustomer from '@/components/Elements/SectionTextPicForCustomer';
 
 
 const IndexPage = (
@@ -59,7 +60,7 @@ const IndexPage = (
                 <SectionTextPicture renderPictureFirst={false} {...pageProps} url={"content-data?slug=sb-positive-stakes"} />   
                 */}
       {/* WHAT CUSTOMER ARE SAYING  */}
-      <SectionTextPicture renderPictureFirst={false} {...pageProps} url={"content-data?slug=1st-message"} paddingBottom={'pb-50'} />
+      <SectionTextPicForCustomer renderPictureFirst={false} {...pageProps} url={"content-data?slug=1st-message"} paddingBottom={'pb-50'} />
 
 
       {/* SB - MEETS A GUIDE - AUTHORITY */}
@@ -111,7 +112,7 @@ const IndexPage = (
   )
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   const mainBannerRes = await fetch(`${baseApiUrl}/content-data?slug=sb-villain`);
   const mainBannerData = await mainBannerRes.json();
 

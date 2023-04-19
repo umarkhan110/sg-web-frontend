@@ -8,6 +8,7 @@ import Zoom from 'react-medium-image-zoom';
 import Image from 'next/image';
 
 const NextSGImage = (props) => {
+  // console.log(props)
   const {magnify, thumbnail, setWidth, setHeight,overFlow, objectFit, gravity} = props;
   const cloudinary = useContext(CloudinaryContext);
 
