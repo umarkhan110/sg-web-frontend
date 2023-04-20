@@ -12,7 +12,8 @@
         "build": "next build && next-sitemap",
         "start": "NODE_ENV=production next start -p $PORT",
         "heroku-postbuild": "next build && next-sitemap",
-        "postbuild": "next-sitemap"
+        "postbuild": "next-sitemap",
+        "analyze": "cross-env ANALYZE=true next build"
     },
     "author": "SmartGuess.is",
     "license": "ISC",
@@ -43,6 +44,7 @@
         "@next/bundle-analyzer": "^12.3.4",
         "@zeit/next-source-maps": "^0.0.3",
         "autoprefixer": "^10.4.1",
+        "cross-env": "^7.0.3",
         "postcss-flexbugs-fixes": "^5.0.2",
         "postcss-preset-env": "^7.8.3",
         "sass": "^1.49.0",

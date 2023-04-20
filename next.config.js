@@ -6,7 +6,7 @@ const path = require('path');
 
 
 
-module.exports = {
+ const nextConfig = {
   images: {
     domains: ['res.cloudinary.com'],
   },
@@ -33,4 +33,12 @@ module.exports = {
     ],
     
     },*/
+
+    
   }
+
+  const withBundleAnalyzer = require('@next/bundle-analyzer')({
+    enabled: process.env.ANALYZE === 'true',
+  })
+
+  module.exports = withBundleAnalyzer(nextConfig)

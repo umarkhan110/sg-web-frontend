@@ -149,25 +149,25 @@ const MyApp = ({ Component, pageProps }) => {
                 {/* <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-PMXLK3X" />
                 <script async >{injectGA()}</script> */}
 
-                {/* Remix icons  styles */}
+                {/* Remix icons  styles
                 <link 
                     href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" 
                     rel="stylesheet"
-                />
+                /> */}
 
                 
                 {/* Slick carousel styles */}
-                <link
+                {/* <link
                     rel="stylesheet"
                     type="text/css"
                     charSet="UTF-8"
                     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-                />
-                <link
+                /> */}
+                {/* <link
                     rel="stylesheet"
                     type="text/css"
                     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-                />
+                /> */}
 
                 <link rel="apple-touch-icon" sizes="180x180" href={global.appleTouchIcon.url} />
                 <link rel="icon" type="image/png" sizes="32x32" href={global.favicon32x32.url} />
