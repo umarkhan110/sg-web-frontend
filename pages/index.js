@@ -1,7 +1,7 @@
 import React from 'react';
 
 import SGNavbarStyle, { COLOR_MODE, DARK_MODE, LIGHT_MODE } from '@/components/Navbar/SGNavbarStyle';
-import SGMainBanner from '@/components/Banner/SGMainBanner';
+// import SGMainBanner from '@/components/Banner/SGMainBanner';
 import SectionTextPicture from '@/components/Elements/SectionTextPicture';
 //import SGFeatures from '@/components/features/SGFeatures';
 //import SGVideoBanner from '@/components/Banner/SGVideoBanner';
@@ -9,7 +9,7 @@ import SectionFullwidthImage from '@/components/Elements/SectionFullwidthImage';
 //import FeatureList from '@/components/Elements/FeatureList';
 //import VideoContent from '@/components/Common/VideoContent';
 
-import BlogPostSection from '@/components/Blog/BlogPostSection'
+// import BlogPostSection from '@/components/Blog/BlogPostSection'
 import SGFooterStyle from '@/components/Footer/SGFooterStyle';
 import SGFreeTrialStyle from '@/components/FreeTrial/SGFreeTrialStyle3';
 import SGVideoBanner from '@/components/Banner/SGVideoBanner';
@@ -19,7 +19,9 @@ import Seo from '@/components/_App/Seo';
 import baseApiUrl from '@/utils/baseApiUrl';
 import SGPartnerStyle from '@/components/Common/SGPartnerStyle';
 import SectionTextPicForCustomer from '@/components/Elements/SectionTextPicForCustomer';
-
+import dynamic from 'next/dynamic';
+const SGMainBanner = dynamic(() => import('@/components/Banner/SGMainBanner'));
+const BlogPostSection= dynamic(() => import('@/components/Blog/BlogPostSection'));
 
 const IndexPage = (
   { pageProps, mainBannerContent, oneLiner,

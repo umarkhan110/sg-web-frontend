@@ -6,10 +6,10 @@
 import React from "react";
 import Link from '@/utils/ActiveLink';
 
-import SGImage from '../Elements/SGImage';
+// import SGImage from '../Elements/SGImage';
 import { preserveUrlParam } from '../Banner/CTAButton';
 import NextSGImage from "../Elements/NextImage";
-
+import dynamic from "next/dynamic";
 export const DARK_MODE = "DARK";
 export const LIGHT_MODE = "LIGHT";
 export const COLOR_MODE = "COLOR";
@@ -22,6 +22,7 @@ export const DARK_LINK_MODE = 'dark-link';
 export const COLOR_LINK_MODE = 'color-link';
 
 const SGNavbarStyle = (props) => {
+    const NextSGImage  = dynamic(() => import('../Elements/NextImage'));
   const { 
           stickyMode = LIGHT_MODE,
           nonStickyMode = DARK_MODE,
